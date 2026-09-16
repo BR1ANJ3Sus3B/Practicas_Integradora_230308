@@ -147,7 +147,8 @@
       "from": "mobile-app",
       "to": "fastapi",
       "label": "Solicitud REST con token",
-      "variant": "emphasis"
+      "variant": "emphasis",
+      "labelAt": [375, 402]
     },
     {
       "id": "token-validation",
@@ -166,7 +167,8 @@
       "id": "document-data",
       "from": "fastapi",
       "to": "mongodb",
-      "label": "Lectura y escritura de documentos"
+      "label": "Lectura y escritura de documentos",
+      "labelAt": [758, 396]
     },
     {
       "id": "map-rendering",
@@ -180,41 +182,14 @@
       "from": "docker-compose",
       "to": "docker",
       "label": "Define y ejecuta contenedores",
-      "variant": "dashed"
-    },
-    {
-      "id": "compose-api",
-      "from": "docker-compose",
-      "to": "fastapi",
-      "label": "Levanta la API local",
-      "variant": "dashed"
-    },
-    {
-      "id": "compose-postgres",
-      "from": "docker-compose",
-      "to": "postgresql",
-      "label": "Levanta PostgreSQL local",
-      "variant": "dashed"
-    },
-    {
-      "id": "compose-mongo",
-      "from": "docker-compose",
-      "to": "mongodb",
-      "label": "Levanta MongoDB local",
-      "variant": "dashed"
+      "variant": "dashed",
+      "labelAt": [705, 725]
     },
     {
       "id": "git-history",
       "from": "git",
       "to": "github",
       "label": "push / pull",
-      "variant": "dashed"
-    },
-    {
-      "id": "source-code",
-      "from": "git",
-      "to": "docker-compose",
-      "label": "Código fuente y configuración",
       "variant": "dashed"
     }
   ],
