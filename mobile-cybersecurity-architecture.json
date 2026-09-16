@@ -35,7 +35,7 @@
       "id": "flutter-app",
       "type": "frontend",
       "label": "Flutter Mobile App",
-      "sublabel": "Android / iOS · UI · secure local storage",
+      "sublabel": "Android / iOS · secure storage",
       "tag": "Client layer",
       "pos": [40, 320],
       "size": [190, 78]
@@ -71,7 +71,7 @@
       "id": "security-service",
       "type": "backend",
       "label": "Security Service",
-      "sublabel": "Dashboard, incidents and security reports",
+      "sublabel": "Dashboard, incidents, reports",
       "tag": "Application services",
       "pos": [1090, 320],
       "size": [205, 78]
@@ -179,7 +179,7 @@
       "from": "rest-api",
       "to": "auth-service",
       "label": "Authenticate credentials",
-      "variant": "security", "labelAt": [520, 300]
+      "variant": "security", "labelAt": [458, 412]
     },
     {
       "id": "auth-jwt",
@@ -215,7 +215,7 @@
       "to": "firebase",
       "label": "Push notification",
       "variant": "emphasis", "labelAt": [1050, 576]
-    },
+    }
   ],
   "cards": [
     {
